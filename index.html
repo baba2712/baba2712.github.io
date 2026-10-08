@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khaja Baba Shaik — Embedded Systems & AI Engineer</title>
+  <meta name="description" content="Khaja Baba Shaik — ECE engineer building embedded systems, PCBs, firmware and AI/ML. Microsoft Imagine Cup 2026 global semifinalist, Samsung Solve for Tomorrow national finalist, India Skills state gold medalist.">
+  <meta name="author" content="Khaja Baba Shaik">
+  <meta name="theme-color" content="#e8d6b6">
+  <link rel="canonical" href="https://baba2712.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://baba2712.github.io/">
+  <meta property="og:title" content="Khaja Baba Shaik — Research · Build · Optimize">
+  <meta property="og:description" content="Embedded systems, PCB design, firmware and AI/ML. From breath-based silicosis screening to active-noise-cancelling safety helmets.">
+  <meta property="og:image" content="https://baba2712.github.io/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://baba2712.github.io/assets/img/og.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syncopate:wght@400;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>
+    document.documentElement.classList.remove("no-js");
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Khaja Baba Shaik",
+    "url": "https://baba2712.github.io/",
+    "email": "mailto:shaik.khajababa.00@gmail.com",
+    "jobTitle": "Electronics & Communication Engineer",
+    "alumniOf": "Rajiv Gandhi University of Knowledge Technologies, RK Valley",
+    "sameAs": [
+      "https://www.linkedin.com/in/khajababa",
+      "https://github.com/baba2712"
+    ],
+    "knowsAbout": ["Embedded Systems", "PCB Design", "Firmware", "RTL Verification", "Machine Learning", "Computer Vision", "Robotics"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ───────────── Header ───────────── -->
+  <header class="nav" id="top">
+    <div class="nav__inner wrap">
+      <a href="#top" class="brand" aria-label="Khaja Baba Shaik — home">
+        <span class="brand__mark">KB</span>
+        <span class="brand__name">Khaja Baba Shaik</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#recognition">Recognition</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Switch between desert day and night">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+        <a class="btn btn--small" href="mailto:shaik.khajababa.00@gmail.com">Say hello</a>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#recognition">Recognition</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ───────────── Hero ───────────── -->
+    <section class="hero">
+      <div class="hero__sky" aria-hidden="true"><span class="sun"></span></div>
+      <canvas class="hero__ripples" id="ripples" aria-hidden="true"></canvas>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal"><span class="dot"></span> ECE · Embedded Systems · AI/ML</p>
+          <h1 class="hero__title reveal">
+            <span>Khaja</span>
+            <span>Baba</span>
+            <span><em>Shaik</em></span>
+          </h1>
+          <p class="hero__motto reveal">Research <i>·</i> Build <i>·</i> Optimize</p>
+          <p class="hero__lead reveal">
+            I design the whole stack of a device — the board, the firmware and the model on top.
+            Computer-vision and optimization systems at <strong>ITC Limited</strong>, ESP32-S3 hardware bring-up
+            for an <strong>ISRO</strong> project at IIT Tirupati, and a breath-based silicosis screener that
+            reached the <strong>global top 12</strong> of Microsoft Imagine Cup.
+          </p>
+          <div class="hero__cta reveal">
+            <a class="btn" href="#projects">See my work <span aria-hidden="true">→</span></a>
+            <a class="btn btn--ghost" href="mailto:shaik.khajababa.00@gmail.com">Get in touch</a>
+          </div>
+          <ul class="socials reveal" aria-label="Profiles">
+            <li><a href="https://www.linkedin.com/in/khajababa" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1v5.46h-4v-4.84c0-1.15-.02-2.64-1.6-2.64-1.62 0-1.86 1.26-1.86 2.56v4.92h-4v-11Z"/></svg></a></li>
+            <li><a href="https://github.com/baba2712" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a></li>
+            <li><a href="https://x.com/momentsof_baba" target="_blank" rel="noopener" aria-label="X (Twitter)">
+              <svg viewBox="0 0 24 24"><path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.57l11.1 14.43Z"/></svg></a></li>
+            <li><a href="mailto:shaik.khajababa.00@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24"><path d="M3 5.5h18v13H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 6 8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a></li>
+          </ul>
+        </div>
+
+        <figure class="hero__board reveal" data-lightbox="assets/img/pcb-main-top.webp" data-caption="ANC helmet main board — STM32H743, 4 layers, 60 × 50 mm, designed in KiCad">
+          <div class="board-frame">
+            <img src="assets/img/pcb-main-top.webp" alt="Top copper layer of the 4-layer STM32H743 main board for the ANC safety helmet" width="1400" height="1193" fetchpriority="high">
+          </div>
+          <figcaption>
+            <span class="mono">FIG. 01</span>
+            <span>ANC helmet main board · STM32H743 · 4-layer · 60 × 50 mm</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="wrap">
+        <dl class="stats reveal">
+          <div><dt>Microsoft Imagine Cup</dt><dd>Top <b data-count="12">12</b></dd><span>global semifinalist</span></div>
+          <div><dt>Samsung Solve for Tomorrow</dt><dd>Top <b data-count="5">5</b></dd><span>national finalist, India</span></div>
+          <div><dt>India Skills · Mobile Robotics</dt><dd>Gold</dd><span>Andhra Pradesh state</span></div>
+          <div><dt>Vision pipeline at ITC</dt><dd><b data-count="68">68</b>→<b data-count="95">95</b>%</dd><span>girth-detection accuracy</span></div>
+          <div><dt>Patents</dt><dd><b data-count="2">2</b></dd><span>filed / in filing</span></div>
+        </dl>
+      </div>
+      <svg class="dunes" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+        <path class="dune dune--3" d="M0,120 C180,70 330,60 520,96 C700,130 820,64 1010,58 C1180,52 1320,96 1440,84 L1440,220 L0,220 Z"/>
+        <path class="dune dune--2" d="M0,160 C150,128 290,110 470,134 C640,156 760,118 930,112 C1110,106 1260,150 1440,128 L1440,220 L0,220 Z"/>
+        <path class="dune dune--1" d="M0,196 C220,170 420,160 640,180 C860,200 1040,168 1240,170 C1330,171 1390,180 1440,184 L1440,220 L0,220 Z"/>
+      </svg>
+    </section>
+
+    <!-- ───────────── Recognition ───────────── -->
+    <section class="section" id="recognition">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">01</span> Recognition</p>
+          <h2>Built for real problems, <em>recognised</em> on national and global stages.</h2>
+        </header>
+
+        <div class="awards">
+          <!-- Imagine Cup -->
+          <article class="award award--feature reveal">
+            <div class="award__media graded" data-lightbox="assets/img/imagine-cup.webp" data-caption="Microsoft Imagine Cup 2026 — Meet the Semifinalists: SILICOSAFE">
+              <img src="assets/img/imagine-cup.webp" alt="Microsoft Imagine Cup 2026 semifinalist spotlight card for team SilicoSafe" loading="lazy" width="1080" height="1350">
+            </div>
+            <div class="award__body">
+              <p class="award__year mono">2026</p>
+              <h3>Microsoft Imagine Cup</h3>
+              <p class="award__result">Global Top 12 Semifinalist</p>
+              <p>Spotlighted by Microsoft for <b>SilicoSafe</b> — early, non-invasive silicosis screening through AI-driven breath analysis.</p>
+              <div class="links">
+                <a href="https://www.instagram.com/p/DWg7-8UDa1z/" target="_blank" rel="noopener">Instagram ↗</a>
+                <a href="https://x.com/i/status/2038652625378500709" target="_blank" rel="noopener">X ↗</a>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445105236203020288/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- India Skills -->
+          <article class="award award--feature award--flip reveal">
+            <div class="award__media award__media--stack graded">
+              <img src="assets/img/indiaskills-gold.webp" alt="Khaja Baba at the India Skills Andhra Pradesh 2025 competition" loading="lazy" width="614" height="819" data-lightbox="assets/img/indiaskills-gold.webp" data-caption="India Skills Andhra Pradesh 2025">
+              <img src="assets/img/indiaskills-robot.webp" alt="Mecanum-wheel mobile robot built for India Skills Mobile Robotics" loading="lazy" width="947" height="824" data-lightbox="assets/img/indiaskills-robot.webp" data-caption="The mecanum-wheel mobile robot">
+              <img src="assets/img/indiaskills-team.webp" alt="Team at the India Skills Andhra Pradesh venue" loading="lazy" width="768" height="1024" data-lightbox="assets/img/indiaskills-team.webp" data-caption="At the India Skills AP venue">
+            </div>
+            <div class="award__body">
+              <p class="award__year mono">2025</p>
+              <h3>India Skills · Mobile Robotics</h3>
+              <p class="award__result">Andhra Pradesh State Gold Medalist</p>
+              <p>Called up the day after an exam, travelled 450 km, and took gold at the state level with a mecanum-wheel mobile robot.</p>
+              <div class="links">
+                <a href="https://x.com/i/status/2004179011921232130" target="_blank" rel="noopener">The story on X ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="award-row">
+            <article class="award award--card reveal">
+              <div class="award__media award__media--sq graded" data-lightbox="assets/img/samsung-top20.webp" data-caption="Samsung Solve for Tomorrow 2025 — Top 20 finalists, presented with FITT, IIT Delhi">
+                <img src="assets/img/samsung-top20.webp" alt="Samsung Solve for Tomorrow 2025 top 20 finalists announcement" loading="lazy" width="800" height="800">
+              </div>
+              <div class="award__body">
+                <p class="award__year mono">2025</p>
+                <h3>Samsung Solve for Tomorrow</h3>
+                <p class="award__result">National Finalist — Top 5 teams in India</p>
+                <div class="links">
+                  <a href="https://news.samsung.com/in/at-14-building-for-the-blind-at-20-detecting-silicosis-samsung-solve-for-tomorrow-finds-new-voices" target="_blank" rel="noopener">Samsung Newsroom ↗</a>
+                  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7385304091234635777/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="award award--card reveal">
+              <div class="award__media award__media--sq graded" data-lightbox="assets/img/siemens-stage.webp" data-caption="Siemens Tech for Society — live demonstration on stage">
+                <img src="assets/img/siemens-stage.webp" alt="Live demonstration on stage at the Siemens Tech for Society hackathon" loading="lazy" width="800" height="474">
+              </div>
+              <div class="award__body">
+                <p class="award__year mono">2024–25</p>
+                <h3>Siemens Tech for Society</h3>
+                <p class="award__result">Winner — Siemens × NASSCOM Foundation Hackathon</p>
+                <div class="links">
+                  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7401549005304037376/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="award award--card award--type reveal">
+              <div class="award__media award__media--sq award__glyph" aria-hidden="true">
+                <span>Top</span><b>20%</b><span>of teams worldwide</span>
+              </div>
+              <div class="award__body">
+                <p class="award__year mono">2026</p>
+                <h3>WorldQuant BRAIN IQC</h3>
+                <p class="award__result">Stage 2 Qualifier — top 20% of teams globally</p>
+                <div class="links">
+                  <a href="https://www.worldquant.com/brain/iqc/" target="_blank" rel="noopener">WorldQuant IQC ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <blockquote class="press reveal">
+          <p>“I’ve seen mine workers lose their lives to silicosis because it was detected too late. I wanted to change that.”</p>
+          <footer>
+            <span>— speaking to</span>
+            <a href="https://news.samsung.com/in/at-14-building-for-the-blind-at-20-detecting-silicosis-samsung-solve-for-tomorrow-finds-new-voices" target="_blank" rel="noopener">Samsung Newsroom India, Sept 2025 ↗</a>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ───────────── Experience ───────────── -->
+    <section class="section section--alt" id="experience">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">02</span> Experience</p>
+          <h2>Shipping systems on <em>plant floors</em> and in research labs.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="job reveal">
+            <div class="job__meta">
+              <p class="mono">Jan 2026 — Present</p>
+              <p>Bhadrachalam, Telangana</p>
+            </div>
+            <div class="job__body">
+              <h3>ITC Limited <span>— Paperboards &amp; Specialty Papers Division</span></h3>
+              <p class="job__role">Intern, Industry 4.0 Centre of Excellence</p>
+              <ul>
+                <li>Formulated and implemented a <b>constrained optimization engine</b> for sheeter dispatch and truck planning — automating customer-order allocation and vehicle assignment under production-capacity and equipment constraints, replacing manual planning.</li>
+                <li>Built a <b>computer-vision measurement pipeline</b> for incoming wood-girth estimation, raising girth-detection accuracy from <b>68% to 95%</b> and strengthening raw-material intake and procurement decisions at the Bhadrachalam mill.</li>
+                <li>Trained <b>NIR/SWIR spectral and optical ML models</b> for bark classification and wood-chip brightness estimation for process control.</li>
+                <li>Created <b>SAFE</b>, a secure USB transfer system for air-gapped OT plant PCs: an IT gateway scans files (Defender, ClamAV) and seals them with AES-256-GCM, Ed25519 and post-quantum ML-KEM-768, verified by Windows 7–11 agents before release.</li>
+                <li>Designed <b>ISR</b>, a change-risk layer that tiers PLC and set-point changes by physical plant impact and enforces approvals — cutting dangerous changes rated low-risk from <b>13 to 0</b> on the Tennessee Eastman benchmark, with <b>2,950+</b> automated tests passing.</li>
+              </ul>
+              <ul class="tags"><li>Optimization</li><li>OpenCV</li><li>Spectral ML</li><li>OT Security</li><li>Post-quantum crypto</li></ul>
+            </div>
+          </li>
+
+          <li class="job reveal">
+            <div class="job__meta">
+              <p class="mono">May 2025 — Jul 2025</p>
+              <p>Tirupati, Andhra Pradesh</p>
+            </div>
+            <div class="job__body">
+              <h3>Indian Institute of Technology Tirupati</h3>
+              <p class="job__role">Research Intern — ISRO RESPOND Project (₹22 Lakh)</p>
+              <ul>
+                <li>Built a <b>smart wireless accelerometer</b> and its <b>receiver unit</b> for real-time machine-tool vibration monitoring and analysis.</li>
+                <li>Brought up hardware and firmware of the custom <b>ESP32-S3 sensor PCB</b>, validating I2C, SPI, UART and interrupt handling.</li>
+                <li>Verified power-up and reset sequencing in <b>3 operating modes</b>, sustaining <b>4+ hours</b> of continuous real-time wireless operation.</li>
+              </ul>
+              <ul class="tags"><li>ESP32-S3</li><li>Board bring-up</li><li>I2C · SPI · UART</li><li>Wireless sensing</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ───────────── Projects ───────────── -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">03</span> Selected projects</p>
+          <h2>From <em>breath</em> to <em>boards</em> to backtests.</h2>
+        </header>
+
+        <!-- SilicoSafe -->
+        <article class="project reveal">
+          <div class="project__media">
+            <div class="plate plate--paper" data-lightbox="assets/img/silicosafe-fingerprint.webp" data-caption="SilicoSafe — breathing bio-fingerprint: 4-D sensor features projected into a learned latent space">
+              <img src="assets/img/silicosafe-fingerprint.webp" alt="Scatter plot of breathing bio-fingerprint in a learned latent space, coloured by gas intensity" loading="lazy" width="1200" height="1200">
+            </div>
+            <div class="plate plate--paper plate--wide" data-lightbox="assets/img/silicosafe-breath.webp" data-caption="SilicoSafe — raw breath-sample gas-resistance signal">
+              <img src="assets/img/silicosafe-breath.webp" alt="Breath sample gas resistance signal over time" loading="lazy" width="1400" height="467">
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__tag mono">Medical diagnostics + startup · Jul 2025 — Present</p>
+            <h3>SilicoSafe</h3>
+            <p class="project__sub">Early silicosis detection platform</p>
+            <p>A portable, non-invasive screening platform for early-stage silicosis risk in high-risk mining and construction workers — grown out of watching mine workers in my home district lose their lives to a disease caught too late.</p>
+            <ul class="bullets">
+              <li>Processes <b>30+ breath VOC features</b> with environmental exposure parameters to generate ML-based risk scores.</li>
+              <li>End-to-end embedded + ML pipeline: multi-sensor acquisition, feature engineering and offline inference.</li>
+              <li>Integrates worker exposure monitoring with multi-sensor breath analysis for exposure-aware respiratory risk assessment.</li>
+            </ul>
+            <ul class="tags"><li>Embedded</li><li>Gas sensing</li><li>Machine learning</li><li>Healthcare</li></ul>
+            <div class="links">
+              <a class="btn btn--small" href="https://drive.google.com/file/d/16J3TlWRYAo0C2MleuKw5Nl3dsKIOFrhw/view?usp=drive_link" target="_blank" rel="noopener">Watch demo ↗</a>
+              <span class="pill">Patent pending</span>
+              <span class="pill">Imagine Cup Top 12</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ANC Helmet -->
+        <article class="project project--flip reveal">
+          <div class="project__media">
+            <div class="board-gallery" id="boardGallery">
+              <div class="plate plate--paper board-gallery__main" data-lightbox="assets/img/pcb-main-top.webp" data-caption="Main board, top — STM32H743, power, charger, analog front end, amplifier">
+                <img src="assets/img/pcb-main-top.webp" alt="Main board top layer" loading="lazy" width="1400" height="1193">
+              </div>
+              <div class="board-gallery__thumbs">
+                <button class="plate plate--paper is-active" data-src="assets/img/pcb-main-top.webp" data-caption="Main board, top — STM32H743, power, charger, analog front end, amplifier" aria-label="Main board, top"><img src="assets/img/pcb-main-top.webp" alt="" loading="lazy"></button>
+                <button class="plate plate--paper" data-src="assets/img/pcb-main-bottom.webp" data-caption="Main board, bottom" aria-label="Main board, bottom"><img src="assets/img/pcb-main-bottom.webp" alt="" loading="lazy"></button>
+                <button class="plate plate--paper" data-src="assets/img/pcb-satellite-top.webp" data-caption="Satellite board — right-ear microphone front ends, 34 × 26 mm" aria-label="Satellite board"><img src="assets/img/pcb-satellite-top.webp" alt="" loading="lazy"></button>
+                <button class="plate plate--paper" data-src="assets/img/pcb-mic-top.webp" data-caption="Mic board — IM73A135 MEMS microphone, 11 × 13.2 mm (×4 per helmet)" aria-label="Mic board"><img src="assets/img/pcb-mic-top.webp" alt="" loading="lazy"></button>
+                <button class="plate plate--paper" data-src="assets/img/anc-spectra.webp" data-caption="Simulated motor noise at 100 dB(A): open ear vs passive cup vs passive + ANC" aria-label="Noise spectra"><img src="assets/img/anc-spectra.webp" alt="" loading="lazy"></button>
+              </div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__tag mono">Embedded systems + hardware · 2026</p>
+            <h3>Smart Safety Helmet with Active Noise Cancellation</h3>
+            <p class="project__sub">Hybrid ANC for 100 dB(A) plant noise</p>
+            <p>An industrial safety helmet with hybrid feed-forward + adaptive feedback ANC, a built-in noise dosimeter, alarm hear-through and a seal monitor that warns when the earcup leaks.</p>
+            <ul class="bullets">
+              <li>Designed <b>3 KiCad PCBs</b> around a <b>4-layer STM32H743</b> board with a SPICE-verified low-latency analog front end and SAR ADCs.</li>
+              <li>Implemented hybrid <b>FxLMS in bare-metal C at 32 kHz</b>, achieving <b>26–31 dB</b> total noise reduction in simulation with fail-safe fallback.</li>
+              <li>Firmware-in-the-loop tests match the Python reference to 0.0 dB(A); seal monitor flagged <b>23/23</b> leaks with zero false alarms.</li>
+            </ul>
+            <ul class="tags"><li>STM32H743</li><li>KiCad</li><li>DSP · FxLMS</li><li>SPICE</li><li>OpenSCAD</li></ul>
+            <div class="links">
+              <a class="btn btn--small" href="https://github.com/baba2712/smart-helmet-with-anc" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stat Arb -->
+        <article class="project reveal">
+          <div class="project__media">
+            <div class="plate plate--ink quant" aria-hidden="true">
+              <div class="quant__head mono"><span>α · cross-sectional</span><span>long / short</span></div>
+              <svg class="quant__chart" viewBox="0 0 400 220" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="qfill" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0" stop-color="currentColor" stop-opacity=".28"/>
+                    <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <g class="quant__grid">
+                  <line x1="0" y1="55" x2="400" y2="55"/><line x1="0" y1="110" x2="400" y2="110"/><line x1="0" y1="165" x2="400" y2="165"/>
+                </g>
+                <path class="quant__area" d="M0,170 C30,165 45,150 70,152 S110,140 130,128 S170,135 190,118 S230,100 250,104 S290,84 310,78 S350,66 370,52 L400,44 L400,220 L0,220 Z" fill="url(#qfill)"/>
+                <path class="quant__line" d="M0,170 C30,165 45,150 70,152 S110,140 130,128 S170,135 190,118 S230,100 250,104 S290,84 310,78 S350,66 370,52 L400,44"/>
+                <path class="quant__bench" d="M0,175 C40,172 70,168 100,166 S160,160 200,158 S260,150 300,150 S360,143 400,140"/>
+              </svg>
+              <div class="quant__foot mono"><span>mean-reversion</span><span>momentum</span><span>Sharpe</span><span>drawdown</span></div>
+            </div>
+          </div>
+          <div class="project__body">
+            <p class="project__tag mono">Personal project · 2026</p>
+            <h3>Statistical Arbitrage Research</h3>
+            <p class="project__sub">Signal generation &amp; backtesting</p>
+            <p>A research pipeline for market-neutral equity strategies — the same discipline that carried me into WorldQuant BRAIN IQC Stage 2.</p>
+            <ul class="bullets">
+              <li>Built a Python pipeline to ingest historical equity data and generate cross-sectional <b>mean-reversion</b> and <b>momentum</b> alpha signals.</li>
+              <li>Constructed and backtested market-neutral long-short portfolios, evaluating risk-adjusted returns via <b>Sharpe ratio</b> and <b>drawdown</b>.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>Quant research</li><li>Backtesting</li></ul>
+          </div>
+        </article>
+
+        <!-- More builds -->
+        <div class="more reveal">
+          <h3 class="more__title">More from the workbench</h3>
+          <div class="more__grid">
+            <a class="tile tile--img" href="https://github.com/baba2712/self-balancing-robot-" target="_blank" rel="noopener">
+              <div class="tile__img graded"><img src="assets/img/balancing-robot-2.webp" alt="Self-balancing robot prototype on a lab bench" loading="lazy"></div>
+              <div class="tile__body">
+                <h4>Self-Balancing Robot</h4>
+                <p>MPU-6050 IMU, complementary filter and PID control on Arduino keep a two-wheeled robot upright.</p>
+                <span class="mono">C++ · Control ↗</span>
+              </div>
+            </a>
+            <div class="tile">
+              <div class="tile__body">
+                <h4>Wireless Accelerometer Receiver</h4>
+                <p>The receiver unit for the ISRO RESPOND vibration-monitoring accelerometer — real-time wireless capture from the machine floor.</p>
+                <span class="mono">C++ · ESP32-S3</span>
+              </div>
+            </div>
+            <a class="tile" href="https://github.com/baba2712/Automatic-Face-unlock-" target="_blank" rel="noopener">
+              <div class="tile__body">
+                <h4>Face Lock for Linux</h4>
+                <p>Face-recognition authentication hooked into the Linux boot process, built with Python and OpenCV.</p>
+                <span class="mono">Python · OpenCV ↗</span>
+              </div>
+            </a>
+            <a class="tile" href="https://github.com/baba2712/Harrypotter-cloak" target="_blank" rel="noopener">
+              <div class="tile__body">
+                <h4>Invisibility Cloak</h4>
+                <p>Real-time colour segmentation and background substitution — the classic Harry Potter trick in OpenCV.</p>
+                <span class="mono">Python · OpenCV ↗</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Patents ───────────── -->
+    <section class="section section--alt" id="patents">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">04</span> Patents</p>
+          <h2>Ideas worth <em>protecting</em>.</h2>
+        </header>
+        <div class="patents">
+          <article class="patent reveal">
+            <p class="mono patent__status"><span class="dot"></span> Patent pending — 2nd filing</p>
+            <h3>SilicoSafe</h3>
+            <p>Breath-VOC and ML-based early silicosis screening system.</p>
+          </article>
+          <article class="patent reveal">
+            <p class="mono patent__status"><span class="dot dot--amber"></span> Provisional patent — filing stage</p>
+            <h3>SAFE</h3>
+            <p>Secure USB transfer system for air-gapped industrial OT networks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Skills ───────────── -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">05</span> Toolkit</p>
+          <h2>Silicon to <em>software</em>.</h2>
+        </header>
+        <div class="skills">
+          <div class="skill reveal">
+            <h3>AI / ML</h3>
+            <ul><li>PyTorch</li><li>Deep Learning</li><li>Computer Vision</li><li>OpenCV</li><li>ML-based Anomaly Detection</li><li>Constrained Optimization</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Embedded</h3>
+            <ul><li>STM32</li><li>ESP32-S3</li><li>Bare-metal C</li><li>Firmware Bring-up</li><li>KiCad PCB Design</li><li>Analog Front End</li><li>SPICE</li><li>DSP</li><li>FxLMS</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Computer Architecture</h3>
+            <ul><li>RISC-V ISA</li><li>x86 ISA</li><li>CPU Pipelines</li><li>Out-of-Order Execution</li><li>Performance Modeling</li><li>I2C</li><li>SPI</li><li>UART</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Robotics</h3>
+            <ul><li>ROS2</li><li>Robot Perception</li><li>Sensor Fusion</li><li>SLAM</li><li>Path Planning</li><li>Motion Planning</li><li>Robot Control</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Programming</h3>
+            <ul><li>Python</li><li>C</li><li>C++</li><li>Golang</li><li>SQL</li><li>Assembly (RISC-V)</li></ul>
+          </div>
+          <div class="skill reveal">
+            <h3>Tools</h3>
+            <ul><li>Git</li><li>GitHub</li><li>Linux</li><li>VS Code</li><li>MATLAB</li><li>Simulink</li><li>ModelSim</li><li>Verilator</li><li>OpenSCAD</li><li>Excel</li><li>Power BI</li><li>PI Data</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Education ───────────── -->
+    <section class="section section--alt" id="education">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="kicker"><span class="mono">06</span> Education</p>
+          <h2>Where it <em>started</em>.</h2>
+        </header>
+        <ol class="edu">
+          <li class="reveal">
+            <p class="mono">2023 — 2027</p>
+            <div>
+              <h3>B.Tech, Electronics &amp; Communication Engineering</h3>
+              <p>Rajiv Gandhi University of Knowledge Technologies, RK Valley</p>
+            </div>
+            <p class="edu__score">CGPA <b>8.0</b>/10</p>
+          </li>
+          <li class="reveal">
+            <p class="mono">2023</p>
+            <div>
+              <h3>Pre-University Course (Class XI–XII)</h3>
+              <p>Rajiv Gandhi University of Knowledge Technologies, RK Valley</p>
+            </div>
+            <p class="edu__score"><b>90</b>%</p>
+          </li>
+          <li class="reveal">
+            <p class="mono">2021</p>
+            <div>
+              <h3>Secondary School Certificate (Class X)</h3>
+              <p>AP Model School</p>
+            </div>
+            <p class="edu__score"><b>87.8</b>%</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ───────────── Contact ───────────── -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact__inner reveal">
+        <p class="kicker"><span class="mono">07</span> Contact</p>
+        <h2 class="contact__title">Let’s build something <em>that matters</em>.</h2>
+        <p class="contact__lead">Open to research collaborations, internships and hardware + AI roles. The fastest way to reach me is email.</p>
+        <a class="contact__mail" href="mailto:shaik.khajababa.00@gmail.com">shaik.khajababa.00@gmail.com</a>
+        <div class="contact__links">
+          <a href="https://www.linkedin.com/in/khajababa" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/baba2712" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://x.com/momentsof_baba" target="_blank" rel="noopener">X ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year">2026</span> Khaja Baba Shaik</p>
+      <p class="mono">Research · Build · Optimize</p>
+      <a href="#top" class="mono">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
